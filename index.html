@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المسار المتكامل — خطة 24 شهراً</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1d2433;--mu:#5d6679;--pr:#2457d6;--ac:#0f9d77;--bd:#e1e5ee;--hd:#12307a}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1420;--card:#182033;--tx:#e8ecf5;--mu:#9aa6bf;--pr:#6b95ff;--ac:#3ed1a3;--bd:#27314a;--hd:#0b1530}}
+:root[data-theme=dark]{--bg:#0f1420;--card:#182033;--tx:#e8ecf5;--mu:#9aa6bf;--pr:#6b95ff;--ac:#3ed1a3;--bd:#27314a;--hd:#0b1530}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:"Segoe UI",Tahoma,Arial,sans-serif;background:var(--bg);color:var(--tx);line-height:1.8}
+nav{position:sticky;top:0;z-index:9;background:var(--card);border-bottom:1px solid var(--bd);display:flex;gap:6px;overflow-x:auto;padding:8px 12px;align-items:center}
+nav a{white-space:nowrap;color:var(--tx);text-decoration:none;padding:4px 12px;border-radius:20px;font-size:.9rem}
+nav a:hover{background:var(--pr);color:#fff}
+nav button{margin-inline-start:auto;border:1px solid var(--bd);background:none;border-radius:20px;padding:4px 12px;cursor:pointer;color:var(--tx)}
+header{background:#030a1f;text-align:center;line-height:0}
+header img{display:block;width:100%;max-width:1100px;height:auto;margin:0 auto}
+main{max-width:1000px;margin:auto;padding:16px}
+section{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:20px;margin:18px 0}
+h2{color:var(--pr);margin-bottom:10px;font-size:1.3rem}
+ul{padding-inline-start:22px}
+li{margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.box{border:1px solid var(--bd);border-radius:12px;padding:12px}
+.box b{color:var(--ac)}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:520px}
+th,td{border:1px solid var(--bd);padding:8px 10px;text-align:right}
+th{background:var(--pr);color:#fff}
+.bar{height:12px;background:var(--bd);border-radius:8px;overflow:hidden;margin:8px 0}
+.bar i{display:block;height:100%;width:0;background:var(--ac);transition:width .4s}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.filters button{border:1px solid var(--bd);background:none;color:var(--tx);padding:4px 14px;border-radius:20px;cursor:pointer}
+.filters .on{background:var(--pr);color:#fff;border-color:var(--pr)}
+details{border:1px solid var(--bd);border-radius:12px;margin:8px 0;padding:6px 12px}
+details.done{border-color:var(--ac);background:color-mix(in srgb,var(--ac) 10%,transparent)}
+summary{cursor:pointer;font-weight:600;display:flex;gap:10px;align-items:center}
+summary input{width:18px;height:18px;accent-color:var(--ac)}
+.tag{font-size:.75rem;background:var(--pr);color:#fff;border-radius:10px;padding:0 8px;margin-inline-start:auto}
+.chain{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chain span{background:var(--bg);border:1px solid var(--bd);border-radius:20px;padding:2px 12px;font-size:.9rem}
+input.f,textarea.f{width:100%;padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);font:inherit;margin:4px 0 10px}
+footer{text-align:center;color:var(--mu);padding:20px;font-size:.9rem}
+@media print{nav,.filters button{display:none}details{break-inside:avoid}}
+body {
+  background-color: #5DADE2 !important;
+}
+</style>
+</style>
+</head>
+<body>
+<nav>
+<a href="#idea">الفكرة</a><a href="#goals">الأهداف</a><a href="#method">المنهجية</a><a href="#tracks">المسارات</a>
+<a href="#plan">الخطة الزمنية</a><a href="#projects">المشاريع</a><a href="#office">Office</a><a href="#tools">الأدوات</a><a href="#result">النتيجة</a><a href="#me">متابعتي</a>
+<button id="theme" type="button">🌓</button>
+</nav>
+<header>
+<img src="header.png" alt="المسار المتكامل للإعلام الآلي وتطوير الويب والمحمول والإدارة المالية الرقمية — إعداد المتمهن: برهيوي عبدالقادر">
+</header>
+<main>
+
+<section id="idea"><h2>1. فكرة المشروع</h2>
+<p>مشروع تعلم طويل المدى لمدة 24 شهراً: بناء أساس قوي في الإعلام الآلي والبرمجة وتطوير الويب وقواعد البيانات، ثم توظيفه في الإدارة الرقمية والمالية. ننتقل تدريجياً من فهم الحاسوب إلى بناء برامج وأنظمة حقيقية تُعرض في GitHub والسيرة الذاتية.</p></section>
+
+<section id="goals"><h2>2. الهدف النهائي</h2>
+<ul>
+<li>أساسيات الحاسوب وأنظمة التشغيل والشبكات.</li>
+<li>أساسيات البرمجة والخوارزميات ثم Python كلغة مركزية.</li>
+<li>قواعد البيانات وSQL وتصميم الأنظمة.</li>
+<li>HTML وCSS وJavaScript ثم Flask لتطبيقات ويب حقيقية.</li>
+<li>Git وGitHub وإدارة المشاريع البرمجية.</li>
+<li>Excel قوي للتحليل المالي والإداري.</li>
+<li>ربط Python وPandas وSQL وExcel للتقارير ولوحات المتابعة.</li>
+<li>مبادئ الإدارة الرقمية ونظم المعلومات.</li>
+<li>مشروع نهائي مالي/إداري حقيقي في Portfolio.</li>
+</ul></section>
+
+<section id="method"><h2>3. منهجية التعلم</h2>
+<div class="grid">
+<div class="box"><b>قاعدة الانتقال</b><br>لا ننتقل لموضوع جديد قبل فهم الفكرة الأساسية وتطبيقها.</div>
+<div class="box"><b>أسئلة كل مفهوم</b><br>أين مكانه؟ ما محتواه؟ ما تطبيقه؟ كيف أشرحه لزميل في دقيقتين؟</div>
+<div class="box"><b>دورة التعلم</b><br>شرح ← مثال ← تطبيق ← تمرين ← تصحيح ← تثبيت.</div>
+<div class="box"><b>مشروع لكل مرحلة</b><br>كل مرحلة تنتج شيئاً عملياً قبل الانتقال.</div>
+<div class="box"><b>GitHub مبكراً</b><br>لحفظ المشاريع وبناء Portfolio تدريجياً.</div>
+<div class="box"><b>مراجعة دورية</b><br>مراجعة شاملة كل ثلاثة أشهر.</div>
+</div></section>
+
+<section id="tracks"><h2>4. المسارات الأربعة</h2>
+<div class="scroll"><table>
+<thead><tr><th>المسار</th><th>المحتوى</th><th>الهدف</th><th>النتيجة</th></tr></thead>
+<tbody>
+<tr><td>الأساس التقني</td><td>الحاسوب، Linux، Terminal، الشبكات</td><td>فهم البيئة التقنية</td><td>استعمال الحاسوب والبيئة البرمجية</td></tr>
+<tr><td>البرمجة</td><td>الخوارزميات، Python، OOP، SQL</td><td>بناء التفكير البرمجي</td><td>برامج وقواعد بيانات</td></tr>
+<tr><td>تطوير الويب</td><td>HTML، CSS، JavaScript، Flask، API، النشر</td><td>بناء تطبيقات ويب</td><td>تطبيقات حقيقية منشورة</td></tr>
+<tr><td>الإدارة المالية الرقمية</td><td>Word، Excel، المحاسبة، Pandas، Dashboard</td><td>ربط التقنية بالمالية</td><td>أنظمة وتقارير مالية رقمية</td></tr>
+</tbody></table></div></section>
+
+<section id="plan"><h2>5. الخطة الزمنية التفصيلية</h2>
+<div class="bar"><i id="fill"></i></div>
+<p id="pct" style="color:var(--mu)"></p>
+<div class="filters" id="filters"></div>
+<div id="months"></div></section>
+
+<section id="projects"><h2>6. المشاريع العملية</h2>
+<div class="scroll"><table>
+<thead><tr><th>#</th><th>المشروع</th><th>التقنيات</th><th>المرحلة</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>حاسبة المصاريف</td><td>Python</td><td>الشهر 3</td></tr>
+<tr><td>2</td><td>نظام مخزون بسيط</td><td>Python + JSON + Git</td><td>الشهر 5</td></tr>
+<tr><td>3</td><td>نظام مصاريف/مخزون</td><td>Python + SQLite</td><td>الشهر 8</td></tr>
+<tr><td>4</td><td>واجهة تسجيل الوجبة</td><td>HTML + CSS + JavaScript</td><td>الشهر 12</td></tr>
+<tr><td>5</td><td>نظام تسجيل الوجبة الكامل</td><td>Flask + SQL + JavaScript + PWA</td><td>الأشهر 15–17</td></tr>
+<tr><td>6</td><td>لوحة متابعة مالية</td><td>Pandas + SQL + Streamlit + Excel</td><td>الشهر 21</td></tr>
+<tr><td>7</td><td>النظام المالي/الإداري النهائي</td><td>Flask + SQL + JavaScript + Reports + Dashboard</td><td>الأشهر 23–24</td></tr>
+</tbody></table></div></section>
+
+<section id="office"><h2>7. Office داخل المسار</h2>
+<p>Office أدوات مساندة وليس مساراً مستقلاً. يأخذ Excel أهمية خاصة لارتباطه بالمالية، ثم ننتقل تدريجياً إلى Python وPandas وSQL ولوحات المتابعة.</p>
+<ul>
+<li>الأشهر 1–2: Word وExcel وPowerPoint أساسيات.</li>
+<li>الأشهر 3–4: Word متقدم، Excel متوسط، PowerPoint متوسط.</li>
+<li>الأشهر 5–8: تطبيقات عملية واحترافية.</li>
+<li>الأشهر 9–17: حسب حاجة المشاريع.</li>
+<li>الأشهر 18–24: Excel للتحليل المالي، Word للتقارير، PowerPoint للعروض النهائية.</li>
+</ul></section>
+
+<section id="tools"><h2>8. الأدوات الأساسية</h2>
+<div class="grid">
+<div class="box"><b>Python</b><br>اللغة المركزية للبرمجة والتحليل.</div>
+<div class="box"><b>HTML + CSS + JS</b><br>أساس الويب.</div>
+<div class="box"><b>Flask</b><br>تطبيقات الويب الخلفية.</div>
+<div class="box"><b>SQL + SQLite</b><br>قواعد البيانات.</div>
+<div class="box"><b>Git + GitHub</b><br>إدارة المشاريع والإصدارات.</div>
+<div class="box"><b>Pandas + Matplotlib</b><br>تحليل البيانات.</div>
+<div class="box"><b>Excel</b><br>التحليل المالي والإداري.</div>
+<div class="box"><b>Streamlit</b><br>لوحات متابعة سريعة.</div>
+<div class="box"><b>Linux + Terminal</b><br>بيئة العمل التقنية.</div>
+</div></section>
+
+<section id="result"><h2>9. النتيجة المتوقعة بعد 24 شهراً</h2>
+<ul>
+<li>أساس قوي في الإعلام الآلي والبرمجة.</li>
+<li>تحويل مشكلة إلى خوارزمية ونظام.</li>
+<li>بناء تطبيق ويب مرتبط بقاعدة بيانات.</li>
+<li>التعامل مع GitHub والنشر.</li>
+<li>تحليل البيانات المالية وإنشاء التقارير.</li>
+<li>Portfolio بمشاريع حقيقية لا مجرد تمارين.</li>
+<li>نظام مالي/إداري نهائي يُعرض كمشروع مهني.</li>
+<li>قاعدة تقنية وإدارية نحو الإدارة المالية الرقمية.</li>
+</ul>
+<h2 style="margin-top:16px">10. قاعدة العمل الأسبوعية</h2>
+<ul>
+<li>حوالي 10 ساعات أسبوعياً خارج الدراسة الرسمية (قابلة للتعديل).</li>
+<li>6 ساعات تعلم وفهم ومراجعة، و4 ساعات تطبيق ومشروع.</li>
+<li>المهم الاستمرارية وليس عدد الساعات في أسبوع واحد.</li>
+</ul>
+<h2 style="margin-top:16px">11. مبدأ مهم</h2>
+<p>الهدف ليس جمع أكبر عدد من التقنيات، بل بناء منظومة مترابطة:</p>
+<div class="chain" id="chain"></div></section>
+
+<section id="me"><h2>12. مساحة المتابعة الشخصية</h2>
+<label>تاريخ البداية<input class="f" type="date" data-k="start"></label>
+<label>تاريخ المراجعة الأولى بعد 3 أشهر<input class="f" type="date" data-k="rev"></label>
+<label>المشروع الحالي<input class="f" type="text" data-k="proj"></label>
+<label>ملاحظات<textarea class="f" rows="4" data-k="notes"></textarea></label>
+<button class="filters" style="all:unset;cursor:pointer;color:var(--pr)" id="reset" type="button">↺ إعادة ضبط التقدم</button>
+</section>
+</main>
+<footer>المسار المتكامل — وثيقة متابعة شخصية لمدة 24 شهراً</footer>
+
+<script>
+const M=[
+["أساسيات الحاسوب + Office",["البيانات والمعلومات: إدخال، معالجة، تخزين، إخراج","CPU وRAM والتخزين واللوحة الأم ووحدات الإدخال والإخراج","Bit وByte والوحدات، الأنظمة العشرية والثنائية والسداسية عشرية، ASCII وUnicode","نظام التشغيل، الملفات والمجلدات والامتدادات، مقدمة في سطر الأوامر","Office: Word وExcel وPowerPoint أساسيات"]],
+["الخوارزميات + أساسيات Python",["المخططات الانسيابية، التسلسل، الشرط، التكرار، شبه الكود","print وinput والمتغيرات وأنواع البيانات والعمليات","المقارنات والعمليات المنطقية والتحويل بين الأنواع","تطبيق: حساب الرصيد ونسبة المصاريف"]],
+["التحكم في Python + مشروع 1",["if / elif / else وfor وrange وwhile وbreak وcontinue","الدوال Functions","Excel: SUM وAVERAGE وMIN وMAX وIF وCOUNT والتنسيق الشرطي","مشروع 1: حاسبة مصاريف مالية عبر الطرفية"]],
+["هياكل البيانات + Git/GitHub",["Lists وTuples وSets وDictionaries وStrings","Git وGitHub وأساسيات Terminal","Excel: الجداول والفرز والتصفية والبحث والدوال المنطقية"]],
+["الملفات + المكتبات + مشروع 2",["Text وJSON وCSV","try/except وModules وLibraries وpip وVirtual Environment","Word: التنسيق الاحترافي والعناوين والفهرس والجداول والصور وترقيم الصفحات","مشروع 2: نظام مخزون بسيط بـ Python وJSON"]],
+["البرمجة الكائنية OOP + الاختبار",["Class وObject وAttributes وMethods و__init__","التغليف والوراثة بصورة مبسطة","assert وunittest ومراجعة Python","اختبار: حل مشكلة جديدة دون نسخ الحل"]],
+["الشبكات + PowerPoint",["LAN وWAN وأجهزة الشبكة وIP وDNS وPorts","Client/Server وHTTP/HTTPS وRequest/Response","أمن المعلومات: كلمات المرور، التشفير، التصيد","PowerPoint: تصميم العرض والصور والجداول والمخططات"]],
+["قواعد البيانات + مشروع 3",["مفاهيم قواعد البيانات والعلاقات","SQL: SELECT وWHERE وORDER BY وINSERT وUPDATE وDELETE وJOIN","تصميم قاعدة البيانات والعلاقات","SQLite + Python","مشروع 3: نظام مصاريف/مخزون بـ Python وSQLite"]],
+["HTML",["بنية الصفحة والعناوين والفقرات والروابط والصور والقوائم والجداول","النماذج: input وbutton وselect","العناصر الدلالية Semantic HTML","مشروع: صفحة تعريفية كاملة"]],
+["CSS + Responsive Design",["Selectors والألوان والخطوط وBox Model","Margin وPadding وBorder","Flexbox وGrid","التصميم المتجاوب مع الهاتف"]],
+["JavaScript أساسيات",["المتغيرات والعمليات والشروط والحلقات","الدوال وArrays وObjects","DOM"]],
+["JavaScript متقدم + مشروع 4",["Events والتحقق من النماذج وFetch وJSON وAPIs","مشروع 4: واجهة تسجيل وجبة الطلبة بـ HTML/CSS/JavaScript"]],
+["Flask + قواعد البيانات",["Routes وJinja وTemplates وForms","ربط Flask مع SQLite","بناء Backend بسيط"]],
+["CRUD + API + المستخدمون",["Create وRead وUpdate وDelete","REST API","تسجيل الدخول والجلسات","الصلاحيات والأدوار"]],
+["أمن التطبيقات + مشروع 5",["Password Hashing وSQL Injection وXSS وCSRF","مشروع 5: نظام تسجيل الوجبة كامل بـ Flask وSQL وJavaScript"]],
+["النشر وإدارة المشروع",["Environment Variables","النشر السحابي","Git Branches وPull Requests","اختبار التطبيق بعد النشر"]],
+["PWA + مشروع ويب منشور",["Manifest والتصميم المتجاوب وAPI واختبار الهاتف","تحويل المشروع إلى تطبيق ويب للهاتف","نشر المشروع وبناء Portfolio","React أو Flutter: اختياري إن كان مفيداً"]],
+["المحاسبة + Excel المالي",["المعادلة المحاسبية والقيد ودفتر الأستاذ وميزان المراجعة","حساب النتائج والميزانية","تقييم المخزون","Excel: الجداول والحسابات والتقارير المالية"]],
+["Pandas",["Series وDataFrame","قراءة CSV وExcel","تنظيف البيانات والقيم المفقودة والمكررة","groupby والتحليل الأساسي"]],
+["التحليل المالي بـ Python",["الربح والهامش والمصاريف والتدفقات النقدية","Matplotlib","الربط بين SQL وPandas","تحليل بيانات مصاريف مؤسسة عملياً"]],
+["التقارير ولوحات المتابعة",["Pivot Tables والدوال المتقدمة والرسوم البيانية","التقارير المالية","openpyxl لأتمتة ملفات Excel","Streamlit","مشروع 6: لوحة متابعة مالية من قاعدة بيانات"]],
+["الإدارة الرقمية ونظم المعلومات",["الرقمنة والإدارة الإلكترونية","نظم المعلومات وتدفق المعلومات","الأرشفة الرقمية وسير العمل","حماية البيانات والتوقيع الإلكتروني"]],
+["المشروع النهائي — التحليل والتصميم",["جمع المتطلبات","المستخدمون والصلاحيات وحالات الاستخدام","تصميم قاعدة البيانات ERD","تصميم الواجهات وتدفق المعلومات","بدء Backend وFrontend"]],
+["المشروع النهائي — الإنجاز والنشر",["إكمال النظام المالي/الإداري","التقارير ولوحة المتابعة","الاختبار والأمن","النشر والتوثيق","GitHub وPortfolio والسيرة الذاتية والتحضير للمقابلة"]]
+];
+const PH=i=>i<8?"تقني وبرمجة":i<17?"ويب":"مالي وإداري";
+const $=s=>document.querySelector(s);
+const st={get(k,d){try{const v=localStorage.getItem("mp_"+k);return v===null?d:JSON.parse(v)}catch(e){return d}},
+set(k,v){try{localStorage.setItem("mp_"+k,JSON.stringify(v))}catch(e){}}};
+let done=st.get("done",[]),flt="الكل";
+
+function render(){
+  const box=$("#months");box.innerHTML="";
+  M.forEach((m,i)=>{
+    if(flt!=="الكل"&&PH(i)!==flt)return;
+    const d=document.createElement("details");
+    d.className=done.includes(i)?"done":"";
+    const ok=done.includes(i)?"checked":"";
+    d.innerHTML=`<summary><input type="checkbox" ${ok} aria-label="تم"><span>الشهر ${i+1}: ${m[0]}</span><span class="tag">${PH(i)}</span></summary><ul>${m[1].map(x=>`<li>${x}</li>`).join("")}</ul>`;
+    const c=d.querySelector("input");
+    c.addEventListener("click",e=>e.stopPropagation());
+    c.addEventListener("change",()=>{
+      done=c.checked?[...done,i]:done.filter(x=>x!==i);
+      st.set("done",done);d.className=c.checked?"done":"";progress();
+    });
+    box.appendChild(d);
+  });
+}
+function progress(){
+  const p=Math.round(done.length/M.length*100);
+  $("#fill").style.width=p+"%";
+  $("#pct").textContent=`أنجزت ${done.length} من ${M.length} شهراً (${p}%)`;
+}
+function filters(){
+  const f=$("#filters");
+  ["الكل","تقني وبرمجة","ويب","مالي وإداري"].forEach(n=>{
+    const b=document.createElement("button");
+    b.type="button";b.textContent=n;if(n===flt)b.className="on";
+    b.onclick=()=>{flt=n;f.querySelectorAll("button").forEach(x=>x.className=x===b?"on":"");render()};
+    f.appendChild(b);
+  });
+}
+["الحاسوب","Linux وTerminal","الخوارزميات","Python","قواعد البيانات","HTML/CSS/JavaScript","Flask/API","النشر","Excel والمحاسبة","Pandas","SQL","التحليل المالي","الإدارة الرقمية","المشروع النهائي"]
+.forEach((t,i,a)=>{const s=document.createElement("span");s.textContent=t;$("#chain").append(s);
+  if(i<a.length-1)$("#chain").append("←")});
+
+document.querySelectorAll("[data-k]").forEach(el=>{
+  el.value=st.get(el.dataset.k,"");
+  el.addEventListener("input",()=>st.set(el.dataset.k,el.value));
+});
+$("#reset").onclick=()=>{if(confirm("مسح كل التقدم المحفوظ؟")){done=[];st.set("done",[]);render();progress()}};
+$("#theme").onclick=()=>{
+  const r=document.documentElement,dark=getComputedStyle(r).getPropertyValue("--bg").trim()==="#0f1420";
+  r.dataset.theme=dark?"light":"dark";
+};
+filters();render();progress();
+</script>
+</body>
+</html>
